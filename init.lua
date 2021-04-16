@@ -36,7 +36,7 @@ function paint_roller.register_table(data_table, pack_name)
 		-- 1 = node name | 2 = color group
 		paint_roller.node_colors[pack_name][v[1]] = v[2]
 	end
-	print("[Paint roller] Table added: "..pack_name)
+	--print("[Paint roller] Table added: "..pack_name)
 end
 
 minetest.register_tool("paint_roller:paint_roller", {
